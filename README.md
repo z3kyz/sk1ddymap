@@ -1,4 +1,5 @@
-# sk1ddymap - The Modern Port Scanner 
+# sk1ddymap  
+The Modern Port Scanner 
  
 ## Overview
 sk1ddymap is an advanced multi-threaded port scanner that allows you to scan a range of ports on any target system. It's designed to be fast, efficient, and customizable. Users can download the precompiled binary for their platform and start scanning without needing to view or modify the source code.
