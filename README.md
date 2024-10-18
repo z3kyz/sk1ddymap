@@ -23,3 +23,7 @@ To install the `.deb` package on a Debian-based Linux distribution (e.g., Ubuntu
 sudo dpkg -i sk1ddymap_1.0.0.deb
 
 
+**After installation, you can run the tool using:**
+
+```bash
+sk1ddymap <target> --start-port <start-port> --end-port <end-port> --threads <number-of-threads>
