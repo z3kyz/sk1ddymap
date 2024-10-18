@@ -21,19 +21,3 @@ To install the `.deb` package on a Debian-based Linux distribution (e.g., Ubuntu
 
 ```bash
 sudo dpkg -i sk1ddymap_1.0.0.deb
-
-##Usage
-Once installed, you can use sk1ddymap to scan for open ports on a target system. Below are the options for running the tool:
-
-#Basic Usage
-
-```bash
-sk1ddymap <target> --start-port <start-port> --end-port <end-port> --threads <number-of-threads>
-
-#JSON Output
-If you wish to save the results in JSON format, you can use the --output flag to specify a file:
-
-```bash
-sk1ddymap <target> --start-port 1 --end-port 65535 --threads 100 --output scan_results.json
-
-
